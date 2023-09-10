@@ -5,4 +5,4 @@ GeoIP2FastRedis is the fastest GeoIP2 country lookup library. Auto import all da
 
 ## Preview with a Redis server running in a docker with 0.5 CPU and 200Mb of RAM. All data uses 57Mb.
 
-![](https://raw.githubusercontent.com/rabuchaim/geoip2fastredis/main/images/preview.jpg)
+![](https://github.com/rabuchaim/geoip2redis/blob/main/images/preview.jpg)
