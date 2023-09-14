@@ -6,7 +6,7 @@ GeoIP2FastRedis is the fastest GeoIP2 country lookup library. Automatically impo
 ## GeoIP2FastRedis v0.0.1 - Preview
 
 ### - All data uses 60Mb of Redis server (94 keys)
-### - Imports 440K networks in less than 3 seconds
+### - Imports 440K networks in less than 2 seconds
 ### - Load the main index into memory in 0.15 seconds.
 ### - Use less than 1Mb of footprint
 ### - A search takes around 0.00007 seconds
