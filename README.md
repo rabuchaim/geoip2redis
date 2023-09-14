@@ -9,14 +9,15 @@ GeoIP2FastRedis is the fastest GeoIP2 country lookup library. Automatically impo
 ### - Imports 440K networks in less than 3 seconds
 ### - Load the main index into memory in 0.15 seconds.
 ### - Use less than 1Mb of footprint
-### - A search takes around 0.0007 seconds
+### - A search takes around 0.00007 seconds
 ### - If the search is cached, it takes less than 0.000001 seconds
-### - Performs 15K searches per second, per core (without cache)
-
-![](https://github.com/rabuchaim/geoip2redis/blob/main/images/redis_import.jpg)
+### - Performs >15K searches per second, per core (without cache)
 
 
-![](https://github.com/rabuchaim/geoip2redis/blob/main/images/geoip2redis_test.jpg)
+![](https://raw.githubusercontent.com/rabuchaim/geoip2redis/main/images/redis_import.jpg)
 
 
-![](https://github.com/rabuchaim/geoip2redis/blob/main/images/geoip2redis_speedtest.jpg)
+![](https://raw.githubusercontent.com/rabuchaim/geoip2redis/main/images/geoip2redis_test.jpg)
+
+
+![](https://raw.githubusercontent.com/rabuchaim/geoip2redis/main/images/geoip2redis_speedtest.jpg)
