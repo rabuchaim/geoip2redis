@@ -1,8 +1,22 @@
 # GeoIP2Fast for Redis
 
-GeoIP2FastRedis is the fastest GeoIP2 country lookup library. Auto import all data to your server with its own data file updated with Maxmind-Geolite2-CSV and is Pure Python!
+GeoIP2FastRedis is the fastest GeoIP2 country lookup library. Automatically import all data to your server with your own updated data file with Maxmind-Geolite2-CSV and it's Pure Python and Pure Redis Protocol!
 
 
-## Preview with a Redis server running in a docker with 0.5 CPU and 200Mb of RAM. All data uses 57Mb.
+## GeoIP2FastRedis v0.0.1 - Preview
 
-![](https://github.com/rabuchaim/geoip2redis/blob/main/images/preview.jpg)
+### - All data uses 60Mb of Redis server (94 keys)
+### - Imports 440K networks in less than 3 seconds
+### - Load the main index into memory in 0.15 seconds.
+### - Use less than 1Mb of footprint
+### - A search takes around 0.0007 seconds
+### - If the search is cached, it takes less than 0.000001 seconds
+### - Performs 15K searches per second, per core (without cache)
+
+![](https://github.com/rabuchaim/geoip2redis/blob/main/images/redis_import.jpg)
+
+
+![](https://github.com/rabuchaim/geoip2redis/blob/main/images/geoip2redis_test.jpg)
+
+
+![](https://github.com/rabuchaim/geoip2redis/blob/main/images/geoip2redis_speedtest.jpg)
